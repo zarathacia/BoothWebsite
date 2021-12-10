@@ -22,6 +22,7 @@
     display: block;
     overflow: visible;
   }
+
   
   .slider-container {
     position: relative;
@@ -153,7 +154,7 @@
     background-image: url("../img/teams/CS/bg.jpg");
   }
   .slide:nth-child(2) .slide__overlay-path {
-    fill: rgb(251, 181, 70,0.6);
+    fill: rgba(251, 181, 70,0.6);
   }
   @media (max-width: 991px) {
     .slide:nth-child(2) .slide__text {
@@ -168,11 +169,11 @@
     background-image: url("../img/teams/RAS/bg.JPG");
   }
   .slide:nth-child(3) .slide__overlay-path {
-    fill: rgb(77, 15, 112,0.6);
+    fill: rgba(199, 30, 28,0.6)
   }
   @media (max-width: 991px) {
     .slide:nth-child(3) .slide__text {
-      background-color: rgba(77, 15, 112,0.6);
+      background-color: rgba(199, 30, 28,0.6)
     }
   }
   .slide:nth-child(4) {
@@ -188,6 +189,21 @@
   @media (max-width: 991px) {
     .slide:nth-child(4) .slide__text {
       background-color: rgba(0, 82, 156,0.6)
+    }
+  }
+  .slide:nth-child(5) {
+    left: 400%;
+  }
+  .slide:nth-child(5) .slide__bg {
+    left: -200%;
+    background-image: url("../img/teams/WIE/bg-2.png");
+  }
+  .slide:nth-child(5) .slide__overlay-path {
+    fill: rgba(77, 15, 112,0.6);
+  }
+  @media (max-width: 991px) {
+    .slide:nth-child(5) .slide__text {
+      background-color: rgba(77, 15, 112,0.6);
     }
   }
   .slide__content {
