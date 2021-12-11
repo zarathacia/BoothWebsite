@@ -146,7 +146,7 @@
   }
   .slide:nth-child(2) .slide__bg {
     left: -50%;
-    background-image: url("../img/teams/CS/bg.jpg");
+    background-image: url("../img/teams/CS/CSWEB.jpeg");
   }
   .slide:nth-child(2) .slide__overlay-path {
     fill: rgba(251, 181, 70,0.6);
@@ -278,8 +278,10 @@
     padding: 0.5rem;
     cursor: pointer;
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 2.3rem;
+    font-size: 3rem;
     perspective: 1000px;
+    text-decoration:none;
+    color: white;
   }
   @media (max-width: 991px) {
     .slide__text-link {
@@ -299,13 +301,19 @@
     transform: rotateX(-85deg);
     transition: transform 0.3s;
     will-change: transform;
+    color: white;
+
   }
   .slide__text-link:hover:before {
     transform: rotateX(0);
+    color: white;
+  }
+  .slide__text-link:hover {
+    color: white;
   }
   .btn{padding: 8px 40px;
 text-align: center;
   font-size: 24px;
 align-items: center;}
 .btn-outline-secondary:hover
-{background-color: #F705E2;}
+{background-color: #772583;}
