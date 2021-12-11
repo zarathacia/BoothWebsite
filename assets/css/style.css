@@ -311,9 +311,44 @@
   .slide__text-link:hover {
     color: white;
   }
-  .btn{padding: 8px 40px;
-text-align: center;
-  font-size: 24px;
-align-items: center;}
-.btn-outline-secondary:hover
-{background-color: #772583;}
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+  .button2 {
+  background-color:#af7e31;
+  color: black;
+  border: 2px solid #af7e31;
+
+}
+.button2:hover{background-color: white;
+color:#64481c;}
+.button1  {background-color:#338eb7;
+  color: black;
+  border: 2px solid #338eb7;}
+  .button1:hover{background-color: white;
+  color:#005b84;}
+
+
+  .button3  {background-color:#d24a49;
+    color: black;
+    border: 2px solid #d24a49;}
+    .button3:hover{background-color: white;
+    color:#8b1513
+;}
+
+    .button5 {background-color:#703e8c;
+      color: black;
+      border: 2px solid #703e8c;}
+      .button5:hover{background-color: white;
+      color:#3d0c59;}
