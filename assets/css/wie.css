@@ -161,17 +161,12 @@
       background-color: rgba(77, 15, 112,0.6);
     }
   }
-  
-
-
-
-
   .slide:nth-child(3) {
     left: 200%;
   }
   .slide:nth-child(3) .slide__bg {
     left: -100%;
-    background-image: url("../img/teams/Wie/AG.png");
+    background-image: url("../img/teams/WIE/logo-1.png");
   }
   .slide:nth-child(3) .slide__overlay-path {
     fill: rgba(77, 15, 112,0.6);
@@ -186,7 +181,7 @@
   }
   .slide:nth-child(4) .slide__bg {
     left: -150%;
-    background-image: url("../img/teams/WIE/ieee\ party1.2.jpg");
+    background-image: url("../img/teams/Wie/AG.png");
   }
   .slide:nth-child(4) .slide__overlay-path {
     fill: rgba(77, 15, 112,0.6);
@@ -196,22 +191,19 @@
       background-color: rgba(77, 15, 112,0.6);
     }
   }
-
-
-
   .slide:nth-child(5) {
     left: 400%;
   }
   .slide:nth-child(5) .slide__bg {
     left: -200%;
-    background-image: url("../img/teams/WIE/ieee\ party1.3.png");
+    background-image: url("../img/teams/WIE/ieee\ party1.2.jpg");
   }
   .slide:nth-child(5) .slide__overlay-path {
-    fill: rgba(77, 15, 112,0.0);
+    fill: rgba(77, 15, 112,0.6);
   }
   @media (max-width: 991px) {
     .slide:nth-child(5) .slide__text {
-      background-color: rgba(77, 15, 112,0.0);
+      background-color: rgba(77, 15, 112,0.6);
     }
   }
 
@@ -220,31 +212,30 @@
   }
   .slide:nth-child(6) .slide__bg {
     left: -250%;
-    background-image: url("../img/teams/WIE/womenhack.jpg");
+    background-image: url("../img/teams/WIE/ieee\ party1.1.jpg");
   }
   .slide:nth-child(6) .slide__overlay-path {
-    fill: rgba(77, 15, 112,0.4);
+    fill: rgba(77, 15, 112,0.0);
   }
   @media (max-width: 991px) {
     .slide:nth-child(6) .slide__text {
-      background-color: rgba(77, 15, 112,0.4);
+      background-color: rgba(77, 15, 112,0.0);
     }
   }
-
 
   .slide:nth-child(7) {
     left: 600%;
   }
   .slide:nth-child(7) .slide__bg {
     left: -300%;
-    background-image: url("../img/teams/WIE/crt2.jpg");
+    background-image: url("../img/teams/WIE/ieee\ party1.3.png");
   }
   .slide:nth-child(7) .slide__overlay-path {
-    fill: rgba(77, 15, 112,0.4);
+    fill: rgba(77, 15, 112,0.0);
   }
   @media (max-width: 991px) {
     .slide:nth-child(7) .slide__text {
-      background-color: rgba(77, 15, 112,0.4);
+      background-color: rgba(77, 15, 112,0.0);
     }
   }
 
@@ -253,14 +244,14 @@
   }
   .slide:nth-child(8) .slide__bg {
     left: -350%;
-    background-image: url("../img/teams/WIE/crt1-1.png");
+    background-image: url("../img/teams/WIE/womenhack.jpg");
   }
   .slide:nth-child(8) .slide__overlay-path {
-    fill: rgba(77, 15, 112,0.0);
+    fill: rgba(77, 15, 112,0.4);
   }
   @media (max-width: 991px) {
     .slide:nth-child(8) .slide__text {
-      background-color: rgba(77, 15, 112,0.0);
+      background-color: rgba(77, 15, 112,0.4);
     }
   }
 
@@ -270,30 +261,63 @@
   }
   .slide:nth-child(9) .slide__bg {
     left: -400%;
-    background-image: url("../img/teams/WIE/starprog1.png");
+    background-image: url("../img/teams/WIE/crt2.jpg");
   }
   .slide:nth-child(9) .slide__overlay-path {
-    fill: rgba(77, 15, 112,0.6);
+    fill: rgba(77, 15, 112,0.4);
   }
   @media (max-width: 991px) {
     .slide:nth-child(9) .slide__text {
-      background-color: rgba(77, 15, 112,0.6);
+      background-color: rgba(77, 15, 112,0.4);
     }
   }
-
 
   .slide:nth-child(10) {
     left: 900%;
   }
   .slide:nth-child(10) .slide__bg {
     left: -450%;
-    background-image: url("../img/teams/WIE/starprog1-1.png");
+    background-image: url("../img/teams/WIE/crt1-1.png");
   }
   .slide:nth-child(10) .slide__overlay-path {
-    fill: rgba(77, 15, 112,0.6);
+    fill: rgba(77, 15, 112,0.0);
   }
   @media (max-width: 991px) {
     .slide:nth-child(10) .slide__text {
+      background-color: rgba(77, 15, 112,0.0);
+    }
+  }
+
+
+  .slide:nth-child(11) {
+    left: 1000%;
+  }
+  .slide:nth-child(11) .slide__bg {
+    left: -500%;
+    background-image: url("../img/teams/WIE/starprog1.png");
+  }
+  .slide:nth-child(11) .slide__overlay-path {
+    fill: rgba(77, 15, 112,0.6);
+  }
+  @media (max-width: 991px) {
+    .slide:nth-child(11) .slide__text {
+      background-color: rgba(77, 15, 112,0.6);
+    }
+  }
+
+
+  .slide:nth-child(12) {
+    left: 1100%;
+  }
+  .slide:nth-child(12) .slide__bg {
+    left: -550%;
+    background-image: url("../img/teams/WIE/starprog1-1.png");
+  }
+  .slide:nth-child(12) .slide__overlay-path {
+    fill: rgba(77, 15, 112,0.6);
+  }
+  @media (max-width: 991px) {
+    .slide:nth-child(12) .slide__text {
       background-color: rgba(77, 15, 112,0.6);
     }
   }
