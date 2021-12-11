@@ -146,7 +146,7 @@
   }
   .slide:nth-child(2) .slide__bg {
     left: -50%;
-    background-image: url("../img/teams/CS/bg.jpg");
+    background-image: url("../img/teams/CS/CSWEB.jpeg");
   }
   .slide:nth-child(2) .slide__overlay-path {
     fill: rgba(251, 181, 70,0.6);
