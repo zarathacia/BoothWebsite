@@ -8,7 +8,7 @@ if($page=="tsyp")
         $txt = 1500;
         fwrite($myfile, $txt);
         fclose($myfile);
-        header("Location: ../sb.html");
+        header("Location: ../index.html");
         exit();
     }
 }
