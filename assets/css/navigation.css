@@ -1,6 +1,8 @@
+
 /*nav bar*/
 
-.containernav {
+.containernav
+ {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
@@ -19,7 +21,7 @@
   }
 }
 @media (min-width: 992px) {
-  .containernav {
+   .containernav {
     max-width: 960px;
   }
 }
@@ -168,7 +170,7 @@
     transform: none;
   }
   .navbar-expand-sm .offcanvas-top,
-  .navbar-expand-sm .offcanvas-bottom {
+.navbar-expand-sm .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -221,7 +223,7 @@
     transform: none;
   }
   .navbar-expand-md .offcanvas-top,
-  .navbar-expand-md .offcanvas-bottom {
+.navbar-expand-md .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -274,7 +276,7 @@
     transform: none;
   }
   .navbar-expand-lg .offcanvas-top,
-  .navbar-expand-lg .offcanvas-bottom {
+.navbar-expand-lg .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -327,7 +329,7 @@
     transform: none;
   }
   .navbar-expand-xl .offcanvas-top,
-  .navbar-expand-xl .offcanvas-bottom {
+.navbar-expand-xl .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -380,7 +382,7 @@
     transform: none;
   }
   .navbar-expand-xxl .offcanvas-top,
-  .navbar-expand-xxl .offcanvas-bottom {
+.navbar-expand-xxl .offcanvas-bottom {
     height: auto;
     border-top: 0;
     border-bottom: 0;
@@ -447,18 +449,17 @@
 .navbar-light .navbar-brand {
   color: rgba(0, 0, 0, 0.9);
 }
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-brand:focus {
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
   color: rgba(0, 0, 0, 0.55);
 }
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   /*color: rgba(0, 0, 0, 0.7);*/
   background-color: rgb(15, 13, 13);
   padding-top: 1rem;
+
 }
 .navbar-light .navbar-nav .nav-link.disabled {
   color: rgba(0, 0, 0, 0.3);
@@ -486,15 +487,13 @@
 .navbar-dark .navbar-brand {
   color: #fff;
 }
-.navbar-dark .navbar-brand:hover,
-.navbar-dark .navbar-brand:focus {
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.55);
 }
-.navbar-dark .navbar-nav .nav-link:hover,
-.navbar-dark .navbar-nav .nav-link:focus {
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: rgba(255, 255, 255, 0.75);
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -524,28 +523,25 @@
   top: 0;
   right: 0;
   left: 0;
+ 
 }
 
 #mainNav {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom:1rem;
   background-color: #212529;
 }
 #mainNav .navbar-toggler {
   /*padding: 0.75rem;*/
   font-size: 5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
   font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #ffc800;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight:700;
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
@@ -554,41 +550,69 @@
   width: 8rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
+  
   font-family: sans-serif, Helvetica, Arial, sans-serif;
   font-size: 2.9rem;
   /*margin-bottom: 2rem;*/
   color: #fff;
   letter-spacing: 0.0625em;
-  padding: 0rem 4.5rem;
+  padding:  0rem 4.5rem;
 }
-.nav-item:hover {
+.nav-item {
   font-size: 2.5rem;
   border-radius: 3rem;
   background-color: rgba(1, 114, 166, 0.6);
 }
-.nav-item1:hover {
+.nav-item1 {
   font-size: 2.5rem;
   border-radius: 3rem;
   background-color: rgba(0, 82, 156, 0.6);
 }
-.nav-item2:hover {
+.nav-item2 {
   font-size: 2.5rem;
   border-radius: 3rem;
   background-color: rgba(251, 181, 70, 0.6);
 }
-.nav-item3:hover {
+.nav-item3 {
   font-size: 2.5rem;
   border-radius: 3rem;
   background-color: rgba(199, 30, 28, 0.6);
 }
-.nav-item4:hover {
+.nav-item4 {
   font-size: 2.5rem;
   border-radius: 3rem;
   background-color: rgba(77, 15, 112, 0.6);
 }
-.nav #mainNav .navbar-nav .nav-item .nav-link.active,
-#mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: white;
+
+
+.nav-item:hover {
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  background-color: rgba(1, 114, 166, 0.2);
+}
+.nav-item1:hover {
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  background-color: rgba(0, 82, 156, 0.2);
+}
+.nav-item2:hover {
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  background-color: rgba(251, 181, 70, 0.2);
+}
+.nav-item3:hover {
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  background-color: rgba(199, 30, 28, 0.2);
+}
+.nav-item4:hover {
+  font-size: 2.5rem;
+  border-radius: 3rem;
+  background-color: rgba(77, 15, 112, 0.2);
+}
+.nav
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color:  white;
 }
 
 @media (min-width: 992px) {
@@ -612,14 +636,14 @@
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom:1rem;
     background-color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 5em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
-  #mainNav.navbar-shrink .navbar-brand img {
+#mainNav.navbar-shrink .navbar-brand img {
     height: 1.5rem;
   }
   #mainNav .navbar-nav .nav-item {
@@ -630,12 +654,13 @@
   }
 }
 
-.left {
-  margin-left: 0px;
-  background-color: #fff;
+.left
+{
+  margin-right:0;
 }
 
-.left img {
-  height: 9rem;
+.left img
+{
+  height: 70px;
   width: auto;
 }
