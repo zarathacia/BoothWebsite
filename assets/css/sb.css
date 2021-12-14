@@ -143,7 +143,7 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("../img/teams/SB/paxful-1.png");
+  background-image: url("../img/teams/SB/indaba.png");
 }
 .slide:nth-child(1) .slide__overlay-path {
   fill: rgba(1, 114, 166, 0.6);
@@ -158,14 +158,14 @@ svg {
 }
 .slide:nth-child(2) .slide__bg {
   left: -50%;
-  background-image: url("../img/background.jpg");
+  background-image: url("../img/teams/sb/buildathon.jpg");
 }
 .slide:nth-child(2) .slide__overlay-path {
-  fill: rgba(1, 114, 166, 0.6);
+  fill: rgba(1, 114, 166, 0.9);
 }
 @media (max-width: 991px) {
   .slide:nth-child(2) .slide__text {
-    background-color: rgba(1, 114, 166, 0.6);
+    background-color: rgba(1, 114, 166, 0.9);
   }
 }
 .slide:nth-child(3) {
@@ -173,7 +173,7 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("../img/teams/SB/gather-1.png");
+  background-image: url("../img/teams/SB/hack\ for\ earth-1.png");
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: rgba(1, 114, 166, 0.6);
@@ -188,14 +188,14 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("../img/teams/RAS/nrw1.png");
+  background-image: url("../img/teams/sb/ieee\ day1-1.png");
 }
 .slide:nth-child(4) .slide__overlay-path {
-  fill: rgb(153, 27, 49, 0.5);
+  fill: rgba(1, 114, 166, 0.6);
 }
 @media (max-width: 991px) {
   .slide:nth-child(4) .slide__text {
-    background-color: rgb(153, 27, 49, 0.5);
+    background-color: rgba(1, 114, 166, 0.6);
   }
 }
 .slide:nth-child(5) {
@@ -203,7 +203,7 @@ svg {
 }
 .slide:nth-child(5) .slide__bg {
   left: -200%;
-  background-image: url("../img/teams/SB/ieee\ day1-1.png");
+  background-image: url("../img/teams/SB/Umojahack\ tunisia.png");
 }
 .slide:nth-child(5) .slide__overlay-path {
   fill: rgba(1, 114, 166, 0.6);
@@ -219,14 +219,14 @@ svg {
 }
 .slide:nth-child(6) .slide__bg {
   left: -250%;
-  background-image: url("../img/teams/RAS/bg.JPG");
+  background-image: url("../img/teams/SB/techtalks.jpg");
 }
 .slide:nth-child(6) .slide__overlay-path {
-  fill: rgb(153, 27, 49, 0.5);
+  fill: rgba(1, 114, 166, 0.8);
 }
 @media (max-width: 991px) {
   .slide:nth-child(6) .slide__text {
-    background-color: rgb(153, 27, 49, 0.5);
+    background-color: rgba(1, 114, 166, 0.8);
   }
 }
 
@@ -235,14 +235,14 @@ svg {
 }
 .slide:nth-child(7) .slide__bg {
   left: -300%;
-  background-image: url("../img/teams/RAS/enim2-1.png");
+  background-image: url("../img/teams/SB/nahli-1.png");
 }
 .slide:nth-child(7) .slide__overlay-path {
-  fill: rgb(153, 27, 49, 0.5);
+  fill: rgba(1, 114, 166, 0.6);
 }
 @media (max-width: 991px) {
   .slide:nth-child(7) .slide__text {
-    background-color: rgb(153, 27, 49, 0.5);
+    background-color: rgba(1, 114, 166, 0.6);
   }
 }
 
@@ -251,7 +251,7 @@ svg {
 }
 .slide:nth-child(8) .slide__bg {
   left: -350%;
-  background-image: url("../img/teams/SB/nahli-1.png");
+  background-image: url("../img/background.jpg");
 }
 .slide:nth-child(8) .slide__overlay-path {
   fill: rgba(1, 114, 166, 0.6);
@@ -267,7 +267,7 @@ svg {
 }
 .slide:nth-child(9) .slide__bg {
   left: -400%;
-  background-image: url("../img/teams/SB/hack\ for\ earth-1.png");
+  background-image: url("");
 }
 .slide:nth-child(9) .slide__overlay-path {
   fill: rgba(1, 114, 166, 0.6);
@@ -283,7 +283,7 @@ svg {
 }
 .slide:nth-child(10) .slide__bg {
   left: -450%;
-  background-image: url("../img/teams/SB/buildathon.jpg");
+  background-image: url("");
 }
 .slide:nth-child(10) .slide__overlay-path {
   fill: rgba(1, 114, 166, 0.6);

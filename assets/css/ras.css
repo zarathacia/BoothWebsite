@@ -170,10 +170,10 @@ svg {
 }
 
 .slide:nth-child(3) {
-  left: 300%;
+  left: 200%;
 }
 .slide:nth-child(3) .slide__bg {
-  left: -150%;
+  left: -100%;
   background-image: url("../img/teams/RAS/nrw1.png");
 }
 .slide:nth-child(3) .slide__overlay-path {
@@ -186,10 +186,10 @@ svg {
 }
 
 .slide:nth-child(4) {
-  left: 400%;
+  left: 300%;
 }
 .slide:nth-child(4) .slide__bg {
-  left: -200%;
+  left: -150%;
   background-image: url("../img/teams/RAS/robocup-1.png");
 }
 .slide:nth-child(4) .slide__overlay-path {
@@ -202,10 +202,10 @@ svg {
 }
 
 .slide:nth-child(5) {
-  left: 500%;
+  left: 400%;
 }
 .slide:nth-child(5) .slide__bg {
-  left: -250%;
+  left: -200%;
   background-image: url("../img/teams/RAS/bg.JPG");
 }
 .slide:nth-child(5) .slide__overlay-path {
@@ -217,12 +217,14 @@ svg {
   }
 }
 
+
+
 .slide:nth-child(6) {
-  left: 600%;
+  left: 500%;
 }
 .slide:nth-child(6) .slide__bg {
-  left: -300%;
-  background-image: url("../img/teams/RAS/enim2-1.png");
+  left: -250%;
+  background-image: url("../img/teams/RAS/nahli2-1.png");
 }
 .slide:nth-child(6) .slide__overlay-path {
   fill: rgb(153, 27, 49, 0.5);
@@ -234,33 +236,17 @@ svg {
 }
 
 .slide:nth-child(7) {
-  left: 700%;
+  left: 600%;
 }
 .slide:nth-child(7) .slide__bg {
-  left: -350%;
-  background-image: url("../img/teams/RAS/nahli2-1.png");
-}
-.slide:nth-child(7) .slide__overlay-path {
-  fill: rgb(153, 27, 49, 0.5);
-}
-@media (max-width: 991px) {
-  .slide:nth-child(7) .slide__text {
-    background-color: rgb(153, 27, 49, 0.5);
-  }
-}
-
-.slide:nth-child(8) {
-  left: 800%;
-}
-.slide:nth-child(8) .slide__bg {
-  left: -400%;
+  left: -300%;
   background-image: url("../img/teams/RAS/nahli1.jpg");
 }
-.slide:nth-child(8) .slide__overlay-path {
+.slide:nth-child(7) .slide__overlay-path {
   fill: rgb(153, 27, 49, 0.1);
 }
 @media (max-width: 991px) {
-  .slide:nth-child(8) .slide__text {
+  .slide:nth-child(7) .slide__text {
     background-color: rgb(153, 27, 49, 0.1);
   }
 }
