@@ -153,10 +153,10 @@ svg {
 }
 .slide:nth-child(1) .slide__bg {
   left: 0;
-  background-image: url("../img/teams/CS/CSWEB.jpeg");
+  background-image: url("../img/teams/CS/fltterteam.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
-  fill: rgba(1, 114, 166, 0.6);
+  fill: rgba(251, 181, 70, 0.6);
 }
 @media (max-width: 991px) {
   .slide:nth-child(1) .slide__text {
@@ -183,7 +183,7 @@ svg {
 }
 .slide:nth-child(3) .slide__bg {
   left: -100%;
-  background-image: url("../img/teams/CS/ieeextreme.jpeg");
+  background-image: url("../img/teams/CS/slide5.jpg");
 }
 .slide:nth-child(3) .slide__overlay-path {
   fill: rgba(251, 181, 70, 0.6);
@@ -198,7 +198,7 @@ svg {
 }
 .slide:nth-child(4) .slide__bg {
   left: -150%;
-  background-image: url("../img/teams/CS/webformation.jpeg");
+  background-image: url("../img/teams/CS/flutter22.jpg");
 }
 .slide:nth-child(4) .slide__overlay-path {
   fill: rgba(251, 181, 70, 0.6);
@@ -213,7 +213,7 @@ svg {
 }
 .slide:nth-child(5) .slide__bg {
   left: -200%;
-  background-image: url("../img/teams/CS/WEBIMG.jpeg");
+  background-image: url("../img/teams/CS/flutterworkshop2.jpg");
 }
 .slide:nth-child(5) .slide__overlay-path {
   fill: rgba(251, 181, 70, 0.6);
@@ -229,7 +229,7 @@ svg {
 }
 .slide:nth-child(6) .slide__bg {
   left: -250%;
-  background-image: url("../img/teams/CS/flutterfor.jpeg");
+  background-image: url("../img/teams/CS/team2.jpeg");
 }
 .slide:nth-child(6) .slide__overlay-path {
   fill: rgba(251, 181, 70, 0.6);
@@ -245,7 +245,7 @@ svg {
 }
 .slide:nth-child(7) .slide__bg {
   left: -300%;
-  background-image: url("../img/teams/CS/FLUTTERIMG.jpeg");
+  background-image: url("../img/teams/CS/ieeextreme.jpeg");
 }
 .slide:nth-child(7) .slide__overlay-path {
   fill: rgba(251, 181, 70, 0.6);
@@ -261,7 +261,7 @@ svg {
 }
 .slide:nth-child(8) .slide__bg {
   left: -350%;
-  background-image: url("../img/teams/CS/team1.jpeg");
+  background-image: url("../img/teams/CS/paxful-1.png");
 }
 .slide:nth-child(8) .slide__overlay-path {
   fill: rgba(251, 181, 70, 0.6);
