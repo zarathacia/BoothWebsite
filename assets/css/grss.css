@@ -278,7 +278,7 @@ svg {
 }
 .slide:nth-child(10) .slide__bg {
   left: -450%;
-  background-image: url("../img/teams/GRSS/titanic2.jpg");
+  background-image: url("../img/teams/GRSS/tita.png");
 }
 .slide:nth-child(10) .slide__overlay-path {
   fill: rgba(0, 82, 156, 0.6);
