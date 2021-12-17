@@ -262,7 +262,7 @@ svg {
   }
 }
 
-.slide:nth-child(9) {
+/* .slide:nth-child(9) {
   left: 800%;
 }
 .slide:nth-child(9) .slide__bg {
@@ -292,7 +292,7 @@ svg {
   .slide:nth-child(10) .slide__text {
     background-color: rgba(1, 114, 166, 0.6);
   }
-}
+} */
 
 .slide__content {
   position: absolute;
