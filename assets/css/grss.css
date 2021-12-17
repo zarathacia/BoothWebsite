@@ -399,3 +399,7 @@ svg {
 .btn-outline-secondary:hover {
   background-color: #f705e2;
 }
+.left img {
+  height: 120px!important;
+  width: auto;
+}
