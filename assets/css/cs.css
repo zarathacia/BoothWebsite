@@ -57,7 +57,7 @@ svg {
   cursor: auto;
 }
 .slider-control:not(.inactive):hover {
-  opacity: 1;
+  opacity: 1.2;
   cursor: pointer;
 }
 .slider-control.left {
@@ -136,7 +136,7 @@ svg {
 }
 .slide.active .slide__overlay,
 .slide.active .slide__text {
-  opacity: 2;
+  opacity: 2.2;
   transform: translateX(0);
 }
 .slide__bg {
@@ -245,7 +245,7 @@ svg {
 }
 .slide:nth-child(7) .slide__bg {
   left: -300%;
-  background-image: url("../img/teams/CS/ieeextreme.jpeg");
+  background-image: url("../img/teams/CS/ieeeXtreme .jpg");
 }
 .slide:nth-child(7) .slide__overlay-path {
   fill: rgba(251, 181, 70, 0.6);
@@ -327,7 +327,7 @@ svg {
   }
 }
 .slide__overlay path {
-  opacity: 1.8;
+  opacity: 2;
 }
 .slide__text {
   position: absolute;
