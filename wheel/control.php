@@ -6,8 +6,6 @@ if($page=="tsyp")
 {
     if (isset($myfile)){
         $txt = 1500;
-        fwrite($myfile, $txt);
-        fclose($myfile);
         header("Location: ../index.html");
         exit();
     }
@@ -16,7 +14,7 @@ if($page=="tsyp")
 if($page=="sb")
 {
     if (isset($myfile)){
-        $txt = 2000;
+        $txt = 1500;
         fwrite($myfile, $txt);
         fclose($myfile);
         header("Location: ../sb.html");
@@ -27,7 +25,7 @@ if($page=="sb")
 if($page=="grss")
 {
     if (isset($myfile)){
-        $txt = 3000;
+        $txt = 1000;
         fwrite($myfile, $txt);
         fclose($myfile);
         header("Location: ../grss.html");
@@ -37,7 +35,7 @@ if($page=="grss")
 if($page=="cs")
 {
     if (isset($myfile)){
-        $txt = 4000;
+        $txt = 500;
         fwrite($myfile, $txt);
         fclose($myfile);
         header("Location: ../cs.html");
@@ -47,7 +45,7 @@ if($page=="cs")
 if($page=="ras")
 {
     if (isset($myfile)){
-        $txt = 5000;
+        $txt = 2500;
         fwrite($myfile, $txt);
         fclose($myfile);
         header("Location: ../ras.html");
@@ -58,7 +56,7 @@ if($page=="ras")
 if($page=="wie")
 {
     if (isset($myfile)){
-        $txt = 6000;
+        $txt = 2000;
         fwrite($myfile, $txt);
         fclose($myfile);
         header("Location: ../wie.html");
